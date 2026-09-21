@@ -21,4 +21,3 @@ A([1 3], [1 3])
 
 mod_vek = vek(1:3);
 A_vek = [A; mod_vek]
-
