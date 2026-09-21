@@ -41,3 +41,16 @@ a_dydis = length(a_dalis)
 
 sf_max = max(sf)
 sf_min = min(sf)
+
+%% PAPILDOMA UŽDUOTIS
+A = [0 1 0 2 3 0 4
+     0 0 0 0 0 0 0
+     0 5 0 6 7 0 8
+     0 9 0 1 2 0 3
+     0 0 0 0 0 0 0
+     0 4 0 5 6 0 7];
+
+eil  = any(A, 2)
+stulp = any(A, 1)
+
+B = A(eil, stulp)
